@@ -18,6 +18,8 @@ public class DevopsApplication {
 	public CommandLineRunner commandLineRunner() {
 		return args -> {
 			System.out.println("Hello World v1.2");
+			//Version 2 modifications
+			System.out.println("Hello World v2");
 		};
 	}
 
